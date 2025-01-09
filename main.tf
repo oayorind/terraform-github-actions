@@ -8,3 +8,8 @@ resource "aws_ssm_parameter" "string_example" {
     Project     = "ExampleProject"
   }
 }
+
+resource "aws_s3_bucket" "example" {
+  bucket = "github-s3-bucket-check-8554" # Replace with your desired bucket name
+ 
+}
